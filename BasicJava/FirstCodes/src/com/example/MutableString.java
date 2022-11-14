@@ -50,6 +50,6 @@ public class MutableString {
         sb.setCharAt(5, 'A');   // KohliAnushka
         System.out.println(sb);
 
-
+        System.out.println("Continue practice");
     }
 }

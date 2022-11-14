@@ -74,7 +74,7 @@ public class Main {
         System.out.println("=======================================================================================================================");
 
 
-
+        System.out.println("How many players will be playing:");
         /*Umpire umpire = new Umpire();
         umpire.collectNumFromGuesser();
         umpire.collectNumFromPlayers();
