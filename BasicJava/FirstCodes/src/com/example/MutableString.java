@@ -46,10 +46,79 @@ public class MutableString {
         System.out.println(sb.charAt(-1));
         */
 
-        StringBuffer sb = new StringBuffer("Kohlianushka");
+       /* StringBuffer sb = new StringBuffer("Kohlianushka");
         sb.setCharAt(5, 'A');   // KohliAnushka
         System.out.println(sb);
 
         System.out.println("Continue practice");
+        */
+
+      /*  StringBuffer sb = new StringBuffer();
+        sb.append("The value of PI is :: ");
+        sb.append(3.14);
+        sb.append(" This is exactly ");
+        sb.append(true);
+        System.out.println(sb);
+        */
+
+     /*   StringBuffer sb = new StringBuffer("abcdefgh");
+        sb.insert(2, "xyz");
+        System.out.println(sb); // abxyzcdefgh
+        sb.insert(9, 11);
+        System.out.println(sb); // abxyzcdef11gh
+        sb.insert(sb.length(), "Dhoni");
+        System.out.println(sb);*/
+
+/*
+
+        StringBuffer sb = new StringBuffer("sachinrameshTtendulkar");
+        sb.delete(6, 12);
+        System.out.println(sb);
+
+        sb.deleteCharAt(7);
+        System.out.println(sb);
+
+*/
+       /*
+       StringBuffer sb = new StringBuffer("rinaldoramos");
+        System.out.println(sb);             //rinaldoramos
+        System.out.println(sb.reverse());   //somarodlanir
+        */
+
+        /*
+        StringBuffer sb = new StringBuffer("rinaldoramos");
+        System.out.println(sb);
+        sb.setLength(7);
+        System.out.println(sb);
+
+*/
+
+
+        /*StringBuffer sb = new StringBuffer("sachinrameshTtendulkar");
+        System.out.println(sb);
+        sb.delete(0, 6);
+        System.out.println(sb); //rameshTtendulkar
+        sb.delete(6, sb.length());
+        System.out.println(sb); //ramesh*/
+
+
+    /*    StringBuffer sb = new StringBuffer(1000);
+        System.out.println(sb.capacity());  //1000
+        sb.append("sachin");
+        System.out.println(sb.capacity());  //1000
+        sb.trimToSize();
+        System.out.println(sb.capacity());  //6*/
+
+
+        StringBuffer sb = new StringBuffer();
+        System.out.println(sb.capacity());  //16
+        sb.ensureCapacity(20);
+        System.out.println(sb.capacity());  //34
+
+//        StringBuffer (v1.0)   ->  These are syncronized
+//        StringBuilder(v1.5)   ->  These are not syncronized
+
+
+
     }
 }
