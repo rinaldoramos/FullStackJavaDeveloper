@@ -4,7 +4,7 @@ public class StringReverseCases {
 
     public static void main(String[] args) {
 
-        String s1 = "ineuron"; // output -> norueni
+        /*String s1 = "ineuron"; // output -> norueni
         String s2 = "";
 
         for (int i = s1.length() -1; i >= 0; i--) {
@@ -31,5 +31,27 @@ public class StringReverseCases {
         str2.insert(7, " ");
         System.out.println(str1);
         System.out.println(str2);
+
+        System.out.println();
+        System.out.println();
+*/
+        // ineuron java -> java ineuron
+        String ss = "ineuron java";
+        String ss2 = "";
+        String[] ar = ss.split(" ");//0 -> ineuron & 1 -> java
+
+            /*for (int i = ar.length - 1; i >= 0; i--) {
+                for (int j = 0; j < ar[i].length(); j++) {
+                    ss2 += (char) ar[i].charAt(j);
+                }
+                ss2 += " ";
+            }*/
+
+        for (int i = ar.length - 1;  i >= 0 ; i--) {
+            ss2 += ar[i] + " ";
+        }
+
+        System.out.println(ss);
+        System.out.println(ss2);
     }
 }
